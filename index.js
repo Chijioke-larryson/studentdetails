@@ -1,14 +1,15 @@
  import express from 'express'
  import cors from 'cors'
  import dotenv from 'dotenv'
- import bodyParser from 'body-parser'
+ import bodyParser from 'body-parser' 
+ import { Pool} from 'pg'
 import studentRoute from './routes/student.js'
 
 
  dotenv.config()
 
  const app = express()
- const PORT = 3000
+ const PORT = 3000;
 
  const corsOptions ={
     origin: '*'
