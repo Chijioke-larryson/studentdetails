@@ -1,8 +1,8 @@
 
-import { query } from "../utils/db.js";
+// import { query } from "../utils/db.js";
 
 export async function getAllStudent(req, res, next){
-
+     
 
 }
 

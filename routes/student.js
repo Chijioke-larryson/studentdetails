@@ -1,4 +1,4 @@
-import express from 'express' 
+import express from "express"
 import { getAllStudent,deleteStudent, getStudent, createStudent, updateStudent } from '../controller/student.js';
 
 const router = express.Router();

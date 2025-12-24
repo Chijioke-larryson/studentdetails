@@ -15,7 +15,7 @@ const requiredEnvVars =  [
 
 requiredEnvVars.forEach((varName) => {
     if (!process.env[varName]) {
-        console.log(`Missing varaible: ${varName}`);
+        console.log(`Missing variable: ${varName}`);
         process.exit(1)
     }
 
